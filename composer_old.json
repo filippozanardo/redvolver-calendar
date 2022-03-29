@@ -1,0 +1,10 @@
+{
+    "name": "redvolver/redvolver-calendar",
+    "require": {
+        "nesbot/carbon": "^2.25",
+        "asana/asana": "^0.9.1",
+        "tareq1988/wp-eloquent": "dev-master",
+        "mpdf/mpdf": "^7.1",
+        "phpoffice/phpspreadsheet": "^1.5"
+    }
+}

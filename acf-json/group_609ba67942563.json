@@ -1,0 +1,149 @@
+{
+    "key": "group_609ba67942563",
+    "title": "Timecard Options",
+    "fields": [
+        {
+            "key": "field_609be1462b458",
+            "label": "Project",
+            "name": "project",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "project"
+            ],
+            "taxonomy": "",
+            "allow_null": 1,
+            "multiple": 0,
+            "return_format": "object",
+            "ui": 1
+        },
+        {
+            "key": "field_609ba683a5d2e",
+            "label": "Start",
+            "name": "start",
+            "type": "date_time_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y g:i a",
+            "return_format": "d\/m\/Y g:i a",
+            "first_day": 1
+        },
+        {
+            "key": "field_609ba68fa5d2f",
+            "label": "End",
+            "name": "end",
+            "type": "date_time_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y g:i a",
+            "return_format": "d\/m\/Y g:i a",
+            "first_day": 1
+        },
+        {
+            "key": "field_609cd02dd7c47",
+            "label": "Type",
+            "name": "type",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "p": "Permessi",
+                "i": "Infortunio",
+                "m": "Malattia",
+                "fe": "Ferie",
+                "pnr": "Permesso non retribuito",
+                "ps": "Permesso di Studio",
+                "ai": "Assenza Ingiustificata",
+                "fs": "Festività"
+            },
+            "default_value": false,
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_609cd0f374f2c",
+            "label": "Smart Working",
+            "name": "smart_working",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_60abaa5163ffa",
+            "label": "CIG",
+            "name": "cig",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "timecard"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1628770142
+}

@@ -1,0 +1,28 @@
+Richieste Manuel
+
+Visione anteprima per i file allegati (no necessario Download)
+Opzione per Download di tutti i file allegati
+visione in preview delle date di on air (sezione dedicata) nella schermata generale progetti
+inserimento upload documento in schermata brief
+Download pdf commessa non prevede dati inseriti (format vuoto)
+Link su testo brief vengono collegati a link di j CALENDAR
+Possibile rimuovere e tenere solo che con click porta a pagina dedicata?
+Notifica di recap consegne giornaliere
+Collegamento a mail PM per invio consegne giornaliere
+Suddivisione per aree di upload/download documenti
+Esempio: cartella presentazioni (carico solo i ppt e pdf grafici) / cartella costi (carico i prev.) / cartella tecnica (carico materiali o info. più tecniche / staff)
+
+
+Rchieste Dani
+
+Verifica status permessi accessi
+Dani Vitto amministrazione - totale di tutte le funzioni
+Manuel e claudio – tutto tranne tema ore staff scarico ore lavoro
+PM & Grafici Giorgiotutto tranne - tutto tranne tema ore staff scarico ore lavoro tool utilities e report
+Commerciali teo e Alessio
+No modifica ma solo visione dei progetti
+Modifica solo per area clienti ed agenzie
+Spunta smart e Cig non visibile su report excel (Tools)
+Rimuovere da menu a tendina
+Permesso studio
+Sezione report compilazione - Aggiungere per dani e Vitto possibilità di download excel  su tutte utenza

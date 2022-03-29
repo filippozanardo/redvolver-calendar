@@ -1,0 +1,87 @@
+{
+    "key": "group_5b64761742d14",
+    "title": "User Options",
+    "fields": [
+        {
+            "key": "field_609e36f08b9f5",
+            "label": "Department",
+            "name": "department",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "manager": "Manager",
+                "logistic": "Logistic",
+                "pm": "PM",
+                "dev": "Development",
+                "sales": "Sales",
+                "graphic": "Grapic"
+            },
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 1,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5bd317d387b18",
+            "label": "Hide User",
+            "name": "hide_user",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5df1296704951",
+            "label": "Color",
+            "name": "color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "user_form",
+                "operator": "==",
+                "value": "edit"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1628686246
+}

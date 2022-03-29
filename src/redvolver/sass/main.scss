@@ -1,0 +1,9 @@
+@import "login";
+@import "wizard";
+
+.list-group-item {
+  border: 1px solid #000000;
+  border-left: none;
+  border-right: none;
+  border-radius: 0 !important;
+}

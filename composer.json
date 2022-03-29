@@ -1,0 +1,10 @@
+{
+    "name": "filippozanardo/redvolver-calendar",
+    "require": {
+        "tareq1988/wp-eloquent": "dev-master",
+        "nesbot/carbon": "^2.48",
+        "mpdf/mpdf": "^8.0",
+        "kunalvarma05/dropbox-php-sdk": "^0.2.2",
+        "phpoffice/phpspreadsheet": "^1.20"
+    }
+}
